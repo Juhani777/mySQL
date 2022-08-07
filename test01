@@ -1,0 +1,7 @@
+insert into table_name values(10001,'1953-09-02','Georgi','Facello','M','1986-06-26');
+insert into table_name values(10002,'1964-06-02','Bezalel','Simmel','F','1985-11-21');
+insert into table_name values(10003,'1959-12-03','Parto','Bamford','M','1986-08-28');
+insert into table_name values(10004,'1954-05-01','Christian','Koblick','M','1986-12-01');
+delete from table_name WHERE emp_no =10004;
+
+select * from table_name order by hire_date desc limit 1;
