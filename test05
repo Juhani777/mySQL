@@ -1,0 +1,7 @@
+create table passing_number(
+    id int,
+    number int
+);
+
+insert into passing_number values (1,4),(2,3),(3,3),(4,2),(5,5),(6,4);
+select * from passing_number order by number desc;
